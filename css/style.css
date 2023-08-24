@@ -1,0 +1,288 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+img{
+    width:100%;
+}
+*{
+    padding: 0;margin: 0;
+}
+/* NAV STARTS HERE */
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-box .nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.nav-left img{
+    width: 35px;
+    height: 25px;
+}
+.nav-left span{
+    color: #FF42A5;
+}
+.nav-left h1{
+    font-family: work sans;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.nav-right{
+    display: flex;
+   gap: 15px;
+ align-items: center;
+   
+
+}
+.nav-right a{
+    text-decoration: none;
+    font-family: work sans;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+   
+}
+
+.nav-right i{
+    padding-left: 10px;
+}
+.nav-right .follow-us{
+    background-color:rgb(231, 230, 233);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+/* BANNER_SECTION */
+.banner-box{
+    display: flex;
+    margin-top: 20px;
+}
+.banner-section-left{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    width: 50%; 
+   align-items: left;
+   background-image: url(../images/Group\ 14.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   padding-left: 40px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.banner-section-left h2{
+    font-family: work sans;
+    font-weight:600;
+    font-size: 48px;
+    color: #1E1E1E;
+   
+}
+.banner-section-left  .goat{
+    font-family: work sans;
+    font-weight:800;
+    font-size: 95px;
+     /* color: #1E1E1E;
+    background-image: linear-gradient(to bottom,pink,purple);
+    color:transparent;
+    -webkit-background-clip: text;  */
+     color:rgb(216, 58, 153);
+    background:-webkit-linear-gradient(rgb(255, 13, 178),rgb(162, 14, 220));
+    background: -webkit-linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    padding-bottom: 10px;
+   
+}
+.banner-section-left p{
+    padding-bottom: 15px;
+    font-family: work sans;
+    font-weight:500;
+    font-size: 20px;
+    color: #534C64;
+}
+/* .banner-button {
+    padding-bottom: 45px;
+} */
+.banner-button button{
+    border-radius: 20px;
+    padding: 10px 16px;
+    border:none;
+    color: white;
+}
+.sign-in-button{
+    background-color:rgb(255, 66, 165) ;
+}
+.go-rogue-button{
+    background-color:rgb(78, 197, 247) ;
+   
+}
+
+.banner-section-right{
+    width: 50%;
+    display: flex;
+   align-items: right;
+
+  }
+.banner-section-right img{
+    width: 100%;
+}
+    /* purpose part */
+    .purpose-box{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        align-items: center; 
+    }
+    .purpose-image{
+        width: 50%;
+    }
+    .purpose-description{
+        width: 50%;
+         text-align: right; 
+    }
+    .purpose-description h3{
+        font-family: work sans;
+        font-size: 48px;
+        font-weight: bold;
+        background:-webkit-linear-gradient(rgb(255, 13, 178),rgb(162, 14, 220));
+        background: -webkit-linear-gradient();
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        padding-bottom: 20px;
+    }
+    .purpose-description p{
+        font-family: work sans;
+        font-size: 18px;
+        font-weight: normal;
+        padding-bottom: 20px;
+        color: #534C64;
+    
+    }
+    .purpose-description button{
+    border-radius: 20px;
+    padding: 10px 16px;
+    border:none;
+    color: white;
+    background-color:rgb(255, 66, 165) ;
+    font-family: work sans;
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 20px;
+    }
+    .purpose-description h4{
+        font-family: work sans;
+        font-size: 24px;
+        font-weight:500;
+        padding-bottom: 10px;
+        color: #534C64;
+    
+    }
+    .purpose-description .p2{
+        font-family: work sans;
+        font-size: 32px;
+        font-weight:600;
+        padding-bottom: 10px;
+        color: #534C64;
+    
+    }
+    
+    /* game video part */
+    .game-video-box{
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+    }
+    .game-video-box h1{
+        font-family: work sans;
+        font-size: 48px;
+        font-weight:700;
+        padding-bottom: 10px;
+        color:rgb(11, 2, 35);
+
+    }
+    .game-video-box .Funny-Videos{
+        font-family: work sans;
+        font-size: 48px;
+        font-weight:700;
+        padding-bottom: 10px;
+        color:rgb(11, 2, 35);
+        background:-webkit-linear-gradient(rgb(255, 13, 178),rgb(162, 14, 220));
+        background: -webkit-linear-gradient();
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+    }
+    .game-video-box p{
+        font-family: work sans;
+        font-size: 18px;
+        font-weight:normal;
+        padding-bottom: 10px;
+        color:#534C64;
+
+    }
+    .video-card{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        gap: 15px;
+       
+    }
+     
+    .video-card p{
+        font-family: work sans;
+        font-size: 20px;
+        font-weight:medium;
+        color:#534C64;
+        padding-top: 10px;
+    }
+
+/* Responsive */
+@media screen and (max-width:425px) {
+
+    /* nav-responsive */
+    .nav-box,.nav-right{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    /* banner-responsive */
+    .banner-box{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    /* pupose responsive */
+    .purpose-box{
+        flex-direction: column;
+       
+        
+    }
+    .purpose-description{
+        align-items: center;
+        text-align: center;
+    
+    }
+    .purpose-description button{
+       margin-bottom: 35px;
+    }
+    /* game video */
+    .video-card{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .video-card .card{
+        padding-top: 45px;
+    }
+    .video-card p{
+        padding-top: 25px;
+    }
+}
