@@ -15,20 +15,20 @@ img{
     align-items: center;
     
 }
-.nav-box .nav-left{
+.nav-box .nav-left,.footer-heading{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 7px;
 }
-.nav-left img{
+.nav-left img,.footer-heading img{
     width: 35px;
     height: 25px;
 }
-.nav-left span{
+.nav-left span,.footer-heading span{
     color: #FF42A5;
 }
-.nav-left h1{
+.nav-left h1,.footer-heading h1{
     font-family: work sans;
     font-size: 45px;
     font-weight: 700;
@@ -330,6 +330,7 @@ img{
         display: flex;
         margin-top: 10px;
         margin-bottom: 15px;
+        gap: 17px;
     }
 .left-paragraph,.right-paragraph{
     font-family: work sans;
@@ -382,17 +383,40 @@ img{
 }
 
 
+/* footer secction */
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(11, 2, 35);
+    color: white;
+    padding: 55px 0;
+}
+.footer-heading{
+    display: flex;
+}
+.footer-heading h1{
+    color: white;
+}
+.footer-story ul,.footer-media,.footer-terms{
+    display: flex;
+    gap: 25px;
+    font-family: work sans;
+    font-size: 18px;
+    font-weight:600;
+}
+.footer-story ul li{
+    list-style:none ;
 
-
-
-
-
-
-
-
-
-
-
+}
+.footer-box h4,.footer-terms{
+    font-family: work sans;
+    font-size: 16px;
+    font-weight:500;
+    color: rgba(255, 255, 255,.5);
+}
 
 
 
@@ -461,8 +485,30 @@ img{
     .career-box{
         flex-direction: column;
     }
+    .career-image{
+        display: flex;
+        justify-content: center;
+    }
     .career-image img{
         width: 80%;
     }
-    
+    /* game button section */
+    .game-button-box{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 50px 90px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* footer */
+    .footer-media{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-story{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
 }
