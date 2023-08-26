@@ -345,6 +345,57 @@ img{
 .career-image img{
     width: 120%;
 }
+
+
+/* game-buttons section */
+.game-button-box{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 90px;
+    justify-content: center;
+    gap: 20px;
+}
+.game-button-box button{
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    align-items: center;
+    padding:5px 10px 5px 5px;
+    border: none;
+    background-color: rgb(243, 241, 241);
+
+
+}
+.game-button-box button img{
+    width:20%;
+}
+.game-button-box button h3{
+    width: 100%;
+    font-family: work sans;
+    font-size: 18px;
+    font-weight:500;
+}
+.game-button-box button:hover{
+    border: 1px solid rgb(255, 66, 165);
+    color:rgb(255, 66, 165) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive */
 @media screen and (max-width:425px) {
 
@@ -413,4 +464,5 @@ img{
     .career-image img{
         width: 80%;
     }
+    
 }
