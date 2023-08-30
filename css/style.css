@@ -185,6 +185,10 @@ img{
         color: #534C64;
     
     }
+
+/*  */
+
+/*  */
     .purpose-description .p2{
         font-family: work sans;
         font-size: 32px;
@@ -244,6 +248,43 @@ img{
         color:#534C64;
         padding-top: 10px;
     }
+    .overlay-container{
+        position: relative; 
+        
+    }
+    
+    .overlay{
+        /* width: 0px;
+        height: 0px; */
+        width: 280px;
+        height: 330px;
+        position: absolute;
+        display: none;
+       
+        /* top: 50%;
+        left: 50%; */
+        background-color: rgba(0, 0, 0, .5);
+        transition: .4s;
+        
+        
+    }
+    .overlay h1{
+        font-size: 18px;
+        text-align: center;
+        color: #FF42A5;
+        margin-top: 130px;
+    }
+    
+    .card:hover .overlay{
+        display: block;
+        
+        /* top: 0;
+        left: 0; */
+        }
+
+
+
+    /* play games */
     .play-box{
         display: flex;
     }
@@ -456,6 +497,7 @@ img{
     }
     .video-card .card{
         padding-top: 45px;
+        
     }
     .video-card p{
         padding-top: 25px;
